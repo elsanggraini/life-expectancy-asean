@@ -1,0 +1,61 @@
+DESKRIPSI DATA DAN VARIABEL
+
+Penelitian ini menggunakan data sekunder yang berfokus pada analisis faktor-faktor yang
+mempengaruhi angka harapan hidup di negara-negara Asia Tenggara pada tahun 2015.
+Pemilihan variabel dilakukan berdasarkan relevansi teoritis, ketersediaan data, serta
+konsistensi antar negara.
+
+Variabel yang digunakan terdiri dari satu variabel dependen dan empat variabel independen,
+sebagaimana dijelaskan berikut ini.
+
+1. Life expectancy
+   Angka harapan hidup saat lahir pada suatu negara.
+   Variabel ini bertindak sebagai variabel dependen (Y).
+   Satuan: Tahun
+
+2. Hepatitis B
+   Persentase cakupan imunisasi Hepatitis B pada anak-anak.
+   Variabel ini digunakan sebagai variabel independen (X).
+   Satuan: Persentase (%)
+
+3. GDP
+   Produk Domestik Bruto (Gross Domestic Product) per kapita.
+   Variabel ini mencerminkan kondisi ekonomi suatu negara.
+   Variabel independen (X).
+   Satuan: USD
+
+4. Schooling
+   Rata-rata lama sekolah penduduk.
+   Variabel ini mencerminkan tingkat pendidikan suatu negara.
+   Variabel independen (X).
+   Satuan: Tahun
+
+5. HIV/AIDS
+   Prevalensi HIV/AIDS dalam suatu negara.
+   Variabel independen (X).
+   Satuan: Persentase (%) dari populasi
+
+Dengan demikian, variabel "Life expectancy" berperan sebagai variabel dependen (Y),
+sedangkan variabel Hepatitis B, GDP, Schooling, dan HIV/AIDS digunakan sebagai variabel
+independen (X) yang dianalisis pengaruhnya terhadap angka harapan hidup.
+
+SUMBER DAN TEKNIK PENGUMPULAN DATA
+
+Data yang digunakan dalam penelitian ini berasal dari sumber data sekunder yang diperoleh
+melalui situs berbagi data publik dan lembaga resmi. Sumber utama data berasal dari Kaggle
+(www.kaggle.com), sebuah platform komunitas data science yang menyediakan berbagai dataset
+terbuka.
+
+Dataset yang digunakan memuat data mengenai angka harapan hidup dan faktor-faktor yang
+mempengaruhinya, seperti imunisasi, ekonomi, pendidikan, dan kesehatan di berbagai negara
+pada rentang tahun 2000 hingga 2015.
+
+Selain itu, data tambahan seperti Produk Domestik Bruto (GDP) dan tingkat pendidikan
+diperoleh dari World Bank (www.worldbank.org), yang merupakan sumber data resmi dan
+terpercaya untuk indikator pembangunan global.
+
+Pengumpulan data dilakukan dengan cara mengunduh dataset dari sumber-sumber tersebut,
+kemudian dilakukan proses seleksi data untuk memfokuskan analisis pada negara-negara Asia
+Tenggara dan tahun 2015. Data yang tidak relevan atau tidak lengkap dieliminasi untuk menjaga
+kualitas dan konsistensi analisis. Selanjutnya, data disiapkan dalam format spreadsheet (.csv)
+agar dapat diolah menggunakan perangkat lunak RapidMiner.
